@@ -1,0 +1,11 @@
+<html>
+   <body>
+      <form action = "{{ url_for('pragarism') }}"  method = "POST" 
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <input type = "submit"/>
+      </form>
+      <p><h3>{{output}}</h3></p>
+   
+   </body>
+</html>
